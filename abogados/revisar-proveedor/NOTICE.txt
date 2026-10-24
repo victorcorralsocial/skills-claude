@@ -1,0 +1,14 @@
+Skills legales para España / UE
+
+Obra derivada del plugin «Legal» de Anthropic, PBC
+(https://github.com/anthropics/knowledge-work-plugins/tree/main/legal),
+distribuido con licencia Apache 2.0 (ver LICENSE).
+
+Cambios respecto al original (octubre de 2026):
+- Traducción al español y reescritura de los flujos para pymes, autónomos y particulares.
+- Sustitución del derecho de EE. UU. (CCPA, Delaware, Nueva York, California) por derecho español y de la UE.
+- Fichas de referencia nuevas (carpeta references/) con citas literales y enlaces al BOE, EUR-Lex y la AEPD, comprobadas el 23-10-2026.
+- Eliminación de las funciones que dependían de conectores (CLM, Slack, DocuSign, etc.).
+
+No es un producto de Anthropic ni está respaldado por Anthropic.
+No es asesoramiento jurídico.
