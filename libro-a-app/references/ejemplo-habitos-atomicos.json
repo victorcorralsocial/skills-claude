@@ -1,0 +1,71 @@
+{
+  "titulo": "Hábitos atómicos",
+  "autor": "James Clear",
+  "anio": 2018,
+  "acento": "#8C4A0B",
+  "ideaCentral": "Los cambios pequeños, repetidos cada día, acaban cambiando tu vida.",
+  "enTreintaSegundos": [
+    "Un hábito es algo que haces tantas veces que ya no lo piensas.",
+    "Para crear uno bueno, hazlo obvio, atractivo, fácil y satisfactorio; para dejar uno malo, al revés.",
+    "Lo que más dura no es perseguir una meta, sino convertirte en la persona que lo hace sin esfuerzo."
+  ],
+  "ideas": [
+    { "id": "i1", "nombre": "Mejora del 1 %", "dice": "Los cambios pequeños parecen no servir de nada, pero se acumulan como el interés compuesto. Un 1 % mejor cada día suma muchísimo en un año.", "hoy": "Elige una cosa que harás un 1 % mejor hoy: dos páginas más, cinco minutos antes a la cama.", "confianza": 3, "fuentes": [0, 2], "conecta": ["i2"] },
+    { "id": "i2", "nombre": "Sistemas, no metas", "dice": "La meta dice adónde quieres llegar; el sistema es lo que haces cada día. Si mejoras el sistema, los resultados llegan solos.", "hoy": "Escribe tu meta y, debajo, la acción diaria que te acerca a ella.", "confianza": 3, "fuentes": [0, 2, 3], "conecta": ["i3"] },
+    { "id": "i3", "nombre": "Hábitos de identidad", "dice": "El cambio que dura empieza por quién quieres ser, no por lo que quieres conseguir. Cada vez que cumples un hábito, votas por esa persona.", "hoy": "Completa «Soy una persona que…» y haz hoy una cosa que lo demuestre.", "confianza": 3, "fuentes": [0, 2, 3], "conecta": ["i4", "i7"] },
+    { "id": "i4", "nombre": "Hazlo obvio", "dice": "Lo que ves es lo que haces. Pon a la vista la señal del buen hábito y decide cuándo y dónde lo harás.", "hoy": "Deja a la vista lo que necesitas para tu hábito: el libro en la almohada, la botella en la mesa.", "confianza": 3, "fuentes": [0, 1, 2], "conecta": ["i5"] },
+    { "id": "i5", "nombre": "Hazlo atractivo", "dice": "Un hábito se repite más si va unido a algo que te apetece. Y se pega antes si te rodeas de gente para la que es lo normal.", "hoy": "Junta tu hábito con algo que te guste: tu pódcast favorito, solo mientras caminas.", "confianza": 3, "fuentes": [0, 2], "conecta": ["i6"] },
+    { "id": "i6", "nombre": "Hazlo fácil", "dice": "Cuantos menos pasos, más lo harás. Empieza con una versión que dure menos de dos minutos.", "hoy": "Reduce tu hábito a dos minutos: leer una página, ponerte las zapatillas.", "confianza": 3, "fuentes": [0, 2, 3], "conecta": ["i7"] },
+    { "id": "i7", "nombre": "Hazlo satisfactorio", "dice": "Repetimos lo que nos da una recompensa al momento. Marcar el hábito y no fallar dos días seguidos hace que se note el progreso.", "hoy": "Marca hoy tu hábito y fíjate en tu racha.", "confianza": 3, "fuentes": [0, 2, 3], "conecta": ["i1"] }
+  ],
+  "fuentes": [
+    { "tipo": "autor", "titulo": "James Clear: página del libro", "url": "https://jamesclear.com/atomic-habits" },
+    { "tipo": "autor", "titulo": "James Clear: Habit stacking", "url": "https://jamesclear.com/habit-stacking" },
+    { "tipo": "resumen", "titulo": "Resumen de un sitio serio (URL real que encuentres)", "url": "https://example.com" },
+    { "tipo": "lectores", "titulo": "Lectores en r/getdisciplined", "url": "https://www.reddit.com/r/getdisciplined/" }
+  ],
+  "bienvenida": {
+    "cambiar": [
+      { "texto": "Hacer deporte y no dejarlo", "compromiso": "Soy una persona que se mueve cada día.", "ideas": ["i6", "i4", "i3"] },
+      { "texto": "Leer más", "compromiso": "Soy una persona que lee.", "ideas": ["i4", "i6", "i7"] },
+      { "texto": "Dejar un mal hábito (el móvil, picar entre horas…)", "compromiso": "Soy una persona que decide en qué gasta su atención.", "ideas": ["i4", "i5", "i2"] },
+      { "texto": "Ser constante con lo que empiezo", "compromiso": "Soy una persona que no falla dos días seguidos.", "ideas": ["i7", "i2", "i1"] },
+      { "texto": "Organizarme mejor el día", "compromiso": "Soy una persona que tiene un sistema.", "ideas": ["i2", "i4", "i1"] }
+    ],
+    "escala": { "pregunta": "¿Cómo de constante eres hoy con tus hábitos?", "bajo": "empiezo cosas y las dejo a los pocos días", "alto": "mantengo mis hábitos aunque cueste" }
+  },
+  "acciones": [
+    { "idea": "i3", "corta": "Escribe tu frase: «Soy una persona que…».", "larga": "Escribe tu frase «Soy una persona que…» y apunta tres cosas pequeñas que esa persona haría hoy." },
+    { "idea": "i4", "corta": "Deja a la vista lo que necesitas para tu hábito de mañana.", "larga": "Prepara el sitio de tu hábito: deja a la vista lo que necesitas y quita lo que te distrae." },
+    { "idea": "i6", "corta": "Reduce tu hábito a una versión de dos minutos y hazla ahora.", "larga": "Escribe la versión de dos minutos de tu hábito, hazla ahora mismo y apunta cómo te ha ido." },
+    { "idea": "i4", "corta": "Escribe: «Voy a [hábito] a las [hora] en [lugar]».", "larga": "Escribe cuándo y dónde harás tu hábito cada día («Voy a [hábito] a las [hora] en [lugar]») y ponlo en tu calendario." },
+    { "idea": "i4", "corta": "Escribe: «Después de [algo que ya haces], haré [tu hábito]».", "larga": "Apunta cinco cosas que ya haces cada día y ata tu hábito nuevo a la que mejor encaje: «Después de…, haré…»." },
+    { "idea": "i2", "corta": "Escribe tu meta y, debajo, la acción diaria que te acerca.", "larga": "Escribe tu meta y, debajo, tu sistema: qué harás cada día, cuándo y cuánto." },
+    { "idea": "i7", "corta": "Marca tu hábito de hoy y mira tu racha.", "larga": "Repasa tu semana en Progreso: qué días cumpliste y qué pasó los que no. Apunta una cosa que cambiarás." },
+    { "idea": "i5", "corta": "Junta tu hábito con algo que te guste hacer.", "larga": "Haz una lista de tres cosas que te encantan y empareja cada una con un hábito: solo las haces mientras lo cumples." },
+    { "idea": "i4", "corta": "Aleja una tentación: el móvil, la tele o lo que te distrae.", "larga": "Haz invisible un mal hábito: saca de la vista lo que lo dispara (apps de la pantalla de inicio, comida a mano)." },
+    { "idea": "i6", "corta": "Quita un paso a tu hábito para que cueste menos empezar.", "larga": "Apunta todo lo que haces antes de tu hábito y quita al menos dos pasos." },
+    { "idea": "i1", "corta": "Elige algo que harás un 1 % mejor que ayer.", "larga": "Elige un hábito y decide cómo lo harás un 1 % mejor cada semana durante un mes." },
+    { "idea": "i5", "corta": "Escribe a alguien para quien tu hábito es lo normal.", "larga": "Busca una persona o un grupo que ya tenga tu hábito y quedad para hacerlo juntos esta semana." },
+    { "idea": "i7", "corta": "Decide qué harás si fallas un día: nunca dos seguidos.", "larga": "Escribe tu plan para los días malos: la versión mínima de tu hábito que harás aunque todo salga mal." },
+    { "idea": "i3", "corta": "Apunta una prueba de hoy de la persona que quieres ser.", "larga": "Escribe cinco pruebas de que ya eres la persona de tu frase y reescríbela si hace falta." }
+  ],
+  "modulos": ["herramienta", "habitos"],
+  "herramienta": {
+    "nombre": "La tabla de tus hábitos",
+    "corto": "Tabla",
+    "explicacion": "Antes de cambiar un hábito, hay que verlo. Clear propone apuntar lo que haces en un día normal y marcar si te acerca, te da igual o te aleja de quien quieres ser.",
+    "tipo": "puntuacion",
+    "instruccion": "Apunta lo que haces en un día normal, desde que te levantas, y valora cada cosa.",
+    "valores": ["Me acerca (+)", "Neutro (=)", "Me aleja (−)"]
+  },
+  "tecnicas": [
+    { "nombre": "Apilar hábitos", "como": "Ata el hábito nuevo a uno que ya haces cada día.", "pregunta": "¿Después de qué lo harás?", "plantilla": "Después de {respuesta}, {habito}." },
+    { "nombre": "Cuándo y dónde", "como": "Decide la hora y el lugar exactos: así no depende de las ganas.", "pregunta": "¿A qué hora y dónde?", "plantilla": "{respuesta}: {habito}." },
+    { "nombre": "Regla de los dos minutos", "como": "Empieza con una versión que dure menos de dos minutos.", "pregunta": "¿Cuál es tu versión de dos minutos?", "plantilla": "Versión mínima: {respuesta}." },
+    { "nombre": "Juntar con algo que te gusta", "como": "Haz tu hábito solo junto a algo que te apetece.", "pregunta": "¿Con qué lo juntas?", "plantilla": "{habito}, con {respuesta}." },
+    { "nombre": "Nunca dos días seguidos", "como": "Fallar un día le pasa a cualquiera. Fallar dos es empezar un hábito nuevo: el de no hacerlo." }
+  ],
+  "diario": [],
+  "chatEjemplos": []
+}

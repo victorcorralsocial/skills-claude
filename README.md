@@ -2,6 +2,24 @@
 
 Skills que hago y pruebo para mis vídeos. Cada una es un archivo de texto con instrucciones para Claude: sin código, sin conexiones a ningún sitio.
 
+## Tu libro en una app: libro-a-app
+
+Le das a Claude el título del libro que te estás leyendo (sobre todo de desarrollo personal) y te monta una app para aplicarlo cada día: una acción pequeña con racha, las ideas clave con su mapa, la herramienta del autor, tus hábitos, un diario o un chat con el libro. **No hace falta subir el libro:** Claude investiga lo que cuenta el autor, resúmenes y lectores, y solo se queda con lo que confirman al menos dos fuentes.
+
+| Skill | Para qué | Descarga |
+|---|---|---|
+| **/libro-a-app** | Convierte un libro en tu app para aplicarlo cada día (probada con *Hábitos atómicos* y *Los 7 hábitos*). | [libro-a-app.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v3/libro-a-app.zip) |
+
+Guía con todo el paso a paso: https://claude.ai/artifact/TF8F9VJ25bzDuGsmJenKGZ
+
+### Cómo se instala y se usa
+1. Descarga `libro-a-app.zip` (no lo descomprimas).
+2. En Claude (web o app del ordenador): **Ajustes → Skills → Añadir → Subir una Skill**.
+3. Escribe `/libro-a-app` y el título, por ejemplo `/libro-a-app Hábitos atómicos`, y contesta las dos preguntas.
+4. **Publica la app** para que guarde tu progreso y la tengas en el móvil (guardar el progreso necesita un plan de pago de Claude).
+
+Los iconos de la app son trazos de [Lucide](https://lucide.dev) (ISC; algunos de Feather, MIT). Sus licencias van en `NOTICE`, dentro de la carpeta.
+
 ## Mi Claude ya tiene abogado: 9 skills legales con la ley española
 
 El paquete «Legal» de Anthropic, pensado para abogados de empresas de EE. UU., adaptado a España y la UE para particulares, autónomos y pymes. Cada skill lleva 4 fichas con 129 reglas en total, cada una con su cita literal y su enlace oficial (BOE, EUR-Lex y AEPD), comprobadas el 23-10-2026.
