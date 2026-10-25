@@ -1,0 +1,24 @@
+{
+  "name": "edicion",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "transcribir": "node scripts/transcribir.mjs",
+    "preparar": "node scripts/preparar.mjs",
+    "render": "node scripts/render.mjs",
+    "fotogramas": "node scripts/fotogramas.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.527",
+    "@remotion/cli": "4.0.527",
+    "@remotion/google-fonts": "4.0.527",
+    "@remotion/install-whisper-cpp": "4.0.527",
+    "@remotion/renderer": "4.0.527",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.527"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  }
+}

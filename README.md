@@ -1,6 +1,26 @@
 # Skills de Claude en español
 
-Skills que hago y pruebo para mis vídeos. Cada una es un archivo de texto con instrucciones para Claude: sin código, sin conexiones a ningún sitio.
+Skills que hago y pruebo para mis vídeos. Casi todas son un archivo de texto con instrucciones para Claude, sin código. La excepción es `mi-editor`, que trae unos scripts para escuchar y montar el vídeo en tu ordenador (puedes leerlos en su carpeta).
+
+## Mi editor: edita tus vídeos con Claude
+
+Le pasas un vídeo tuyo hablando a cámara y Claude Code te lo devuelve montado para TikTok, Reels o Shorts: quita silencios, frases repetidas y tomas en falso, pone subtítulos palabra a palabra, zooms, el rótulo del gancho y carteles, todo dentro de las zonas seguras y **con tu estilo** (te lo pregunta la primera vez). Luego le pides cambios con el minuto: «en el 0:12 quita esa frase». Usa [Whisper](https://github.com/ggml-org/whisper.cpp) y [Remotion](https://www.remotion.dev); tu vídeo no se sube a ningún sitio.
+
+| Skill | Para qué | Descarga |
+|---|---|---|
+| **/editar** | Edita tus vídeos verticales en tu ordenador, con tu estilo. Necesita **Claude Code** (plan Pro de Claude o superior); probado en Mac. | [mi-editor.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v4/mi-editor.zip) |
+
+Guía con todo el paso a paso: https://claude.ai/artifact/HMKpR8mkUWcdHxuj61Vmfe
+
+### Cómo se instala y se usa
+1. Instala Claude Code: en la Terminal, `curl -fsSL https://claude.ai/install.sh | bash`, y luego escribe `claude`.
+2. Descarga `mi-editor.zip`, arrástralo a Claude Code y escribe **«instala este editor»**.
+3. Escribe `/editar` y arrastra tu vídeo. La primera vez te pregunta tu estilo y descarga Whisper (unos 1,5 GB).
+4. Te deja `tu-video-editado.mp4` junto a tu vídeo. Pídele los cambios que quieras.
+
+> Este no se sube en **Ajustes → Skills** de claude.ai: es para Claude Code, que es el que puede ejecutar Whisper y Remotion en tu ordenador.
+
+Remotion es gratis para particulares y empresas de hasta 3 personas; las más grandes necesitan [su licencia](https://www.remotion.pro/license).
 
 ## Tu libro en una app: libro-a-app
 
