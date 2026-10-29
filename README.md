@@ -2,6 +2,22 @@
 
 Skills que hago y pruebo para mis vídeos. Casi todas son un archivo de texto con instrucciones para Claude, sin código. La excepción es `mi-editor`, que trae unos scripts para escuchar y montar el vídeo en tu ordenador (puedes leerlos en su carpeta).
 
+## Find Skills: la skill que te busca skills (Claude y ChatGPT)
+
+La skill más instalada de [skills.sh](https://skills.sh/), con 4 millones de instalaciones. Le dices qué quieres hacer y te busca la mejor skill para eso: qué hace, quién la ha hecho, cuántas instalaciones tiene y cómo se instala. Si no hay ninguna de fiar, te lo dice.
+
+No es mía: es de Vercel ([vercel-labs/skills](https://github.com/vercel-labs/skills/tree/main/skills/find-skills), licencia MIT). El zip es el original, sin cambios, con su `LICENSE` dentro.
+
+| Skill | Para qué | Descarga |
+|---|---|---|
+| **find-skills** | Busca en skills.sh la mejor skill para lo que quieres hacer y mira si es de fiar (instalaciones, autor y estrellas en GitHub). Va en Claude y en ChatGPT. | [find-skills.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v5/find-skills.zip) |
+
+Guía con todo el paso a paso: https://claude.ai/artifact/CfusRQT6fm4dwem7teFSAZ
+
+### Cómo se instala
+- **Claude** (web o app del ordenador): **Ajustes → Skills → Añadir → Subir una Skill** y subes el zip sin descomprimirlo. Se usa con `/find-skills`.
+- **ChatGPT** (probado con Plus, app del ordenador, modo Work): en Complementos da error. Adjunta el zip en un chat y escribe «@Skill Creator crea una skill que sea una réplica exacta de find-skills». Se usa con `@Find Skills`.
+
 ## Mi editor: edita tus vídeos con Claude
 
 Le pasas un vídeo tuyo hablando a cámara y Claude Code te lo devuelve montado para TikTok, Reels o Shorts: quita silencios, frases repetidas y tomas en falso, pone subtítulos palabra a palabra, zooms, el rótulo del gancho y carteles, todo dentro de las zonas seguras y **con tu estilo** (te lo pregunta la primera vez). Luego le pides cambios con el minuto: «en el 0:12 quita esa frase». Usa [Whisper](https://github.com/ggml-org/whisper.cpp) y [Remotion](https://www.remotion.dev); tu vídeo no se sube a ningún sitio.
