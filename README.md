@@ -2,6 +2,39 @@
 
 Skills que hago y pruebo para mis vídeos. Casi todas son un archivo de texto con instrucciones para Claude, sin código. La excepción es `mi-editor`, que trae unos scripts para escuchar y montar el vídeo en tu ordenador (puedes leerlos en su carpeta).
 
+## Mi Claude tiene gestoría propia: 9 skills para autónomos en España
+
+El paquete «Small Business» de Anthropic (44 skills para pequeños negocios de EE. UU.) reducido a las 9 que le sirven a un autónomo o una pyme en España y adaptado a sus impuestos: IVA, IRPF, cuota de autónomos y modelos 303 y 130. Cada skill lleva 3 fichas con 101 reglas en total, cada una con su cita literal y su enlace oficial (BOE, Agencia Tributaria y Seguridad Social), comprobadas el 27-10-2026. Funcionan con PDF, Excel o fotos, sin conectar nada.
+
+**No es asesoramiento fiscal ni sustituye a tu gestor.** Sirve para llegar a él con todo ordenado y revisado. No presentan, no pagan ni envían nada: preparan borradores.
+
+| Skill | Para qué | Descarga |
+|---|---|---|
+| **trimestre** | Con tus facturas, tickets y cuentas calcula el 303 (IVA) y el 130 (IRPF), señala cada error con su norma y deja el borrador con las casillas. | [trimestre.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v6/trimestre.zip) |
+| **cobrar-facturas** | «¿Quién me debe dinero?»: un mensaje para cada cliente con su tono, el interés de demora y los 40 € por costes de cobro. | [cobrar-facturas.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v6/cobrar-facturas.zip) |
+| **caja** | «¿Llego a fin de mes?»: previsión a 30, 60 y 90 días, separando lo que es de Hacienda. | [caja.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v6/caja.zip) |
+| **revisar-facturas** | Revisa cada factura o ticket: datos obligatorios, IVA y retención, y si desgrava en el IRPF y en el IVA. | [revisar-facturas.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v6/revisar-facturas.zip) |
+| **calendario-fiscal** | Qué presentar y pagar, y cuándo (303, 130, 111, 115, 349, 390, 347, renta, cuota), por urgencia. | [calendario-fiscal.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v6/calendario-fiscal.zip) |
+| **presupuesto** | Presupuestos con el IVA y la retención bien puestos y condiciones claras para cobrar. | [presupuesto.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v6/presupuesto.zip) |
+| **resenas** | Responde reseñas, también las malas, sin revelar datos del cliente y sin saltarte la ley. | [resenas.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v6/resenas.zip) |
+| **redes-negocio** | Las 3-5 publicaciones de la semana para las redes del negocio. | [redes-negocio.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v6/redes-negocio.zip) |
+| **resumen-lunes** | Una página para empezar la semana: dinero, cobros, pagos, plazos y lo primero que haría. | [resumen-lunes.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v6/resumen-lunes.zip) |
+
+Las 9 de una vez: [las-9-skills.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v6/las-9-skills.zip) (este sí hay que descomprimirlo: dentro están los 9 `.zip`). Para probarlas, las cuentas inventadas del vídeo: [prueba-trimestre.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v6/prueba-trimestre.zip) (16 archivos con errores metidos a propósito) y [facturas-y-cobros-2026.xlsx](https://github.com/victorcorralsocial/skills-claude/releases/download/v6/facturas-y-cobros-2026.xlsx).
+
+Guía con todo el paso a paso: https://claude.ai/artifact/VH8KJ4F97bGxgfUBsEmUEm
+
+### Cómo se instalan
+1. Descarga los `.zip` de la tabla (no los descomprimas).
+2. En Claude (web o app del ordenador): **Ajustes → Skills → Añadir → Subir una Skill**.
+3. Elige los que quieras a la vez y súbelos.
+4. Pásale a Claude tus facturas o tu duda («¿cuánto me sale el trimestre?», «¿quién me debe dinero?»): elige solo la skill que toca. También puedes llamarla con `/trimestre`, `/cobrar-facturas`…
+
+### Ojo
+- Las normas cambian cada año (cuota de autónomos, interés de demora, plazos): las fichas están comprobadas a 27-10-2026. Lo que estaba pendiente ese día (IVA del alquiler turístico corto y regularización de la cuota, por reales decretos-ley sin convalidar, y la tarifa plana de 2026) va como duda.
+- No cubren módulos ni recargo de equivalencia (solo lo básico), Canarias, Ceuta, Melilla, País Vasco ni Navarra, sociedades ni nóminas.
+- Créditos: obra derivada del plugin [Small Business de Anthropic](https://github.com/anthropics/knowledge-work-plugins/tree/main/small-business) (Apache 2.0), traducida y modificada. No es un producto de Anthropic ni está respaldada por Anthropic. Su licencia y su aviso van dentro de cada carpeta.
+
 ## Find Skills: la skill que te busca skills (Claude y ChatGPT)
 
 La skill más instalada de [skills.sh](https://skills.sh/), con 4 millones de instalaciones. Le dices qué quieres hacer y te busca la mejor skill para eso: qué hace, quién la ha hecho, cuántas instalaciones tiene y cómo se instala. Si no hay ninguna de fiar, te lo dice.

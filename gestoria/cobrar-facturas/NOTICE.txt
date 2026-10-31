@@ -1,0 +1,16 @@
+Skills de gestoría para autónomos en España
+
+Obra derivada del plugin «Small Business» de Anthropic, PBC
+(https://github.com/anthropics/knowledge-work-plugins/tree/main/small-business),
+distribuido con licencia Apache 2.0 (ver LICENSE).
+
+Cambios respecto al original (octubre de 2026):
+- Traducción al español y reescritura de los flujos para autónomos y pymes en España.
+- Sustitución de la fiscalidad de EE. UU. (pagos estimados federales, 1099-NEC, W-9) por IVA, IRPF,
+  cuota de autónomos y ley de morosidad españoles.
+- Fichas de referencia nuevas (carpeta references/) con citas literales y enlaces al BOE, la Agencia
+  Tributaria y la Seguridad Social, comprobadas el 27-10-2026.
+- Eliminación de las funciones que dependían de conectores (QuickBooks, Xero, PayPal, Stripe, Gusto, etc.).
+
+No es un producto de Anthropic ni está respaldado por Anthropic.
+No es asesoramiento fiscal ni jurídico.
