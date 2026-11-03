@@ -2,6 +2,26 @@
 
 Skills que hago y pruebo para mis vídeos. Casi todas son un archivo de texto con instrucciones para Claude, sin código. La excepción es `mi-editor`, que trae unos scripts para escuchar y montar el vídeo en tu ordenador (puedes leerlos en su carpeta).
 
+## Mi Claude tiene diseñadores: logo, web y presentación
+
+Tres skills de diseño que, en el mismo chat, hacen el logo de un negocio (con todos sus archivos), la web con ese logo y la presentación para el banco o un cliente, con los mismos colores. Probadas en la app de Claude (plan Pro) el 2-11-2026 con un negocio inventado: Doce Horas, la panadería de Marta.
+
+No son mías: son de sus autores en GitHub, con licencia MIT. Los zip son los originales, sin cambios, con su `LICENSE` dentro (a `frontend-slides` le he añadido la de su repositorio, que no venía en el zip).
+
+| Skill | Para qué | Autor | Descarga |
+|---|---|---|---|
+| **logo-design** | Tres propuestas con su idea, y el logo final con sus versiones, maquetas y guía de uso. | [kaankiziltug/logo-design-skill](https://github.com/kaankiziltug/logo-design-skill) | [logo-design.zip](https://github.com/kaankiziltug/logo-design-skill/releases/latest/download/logo-design.zip) (de su autor) |
+| **design-taste-frontend** | Una web de una página con dirección de arte propia, sin plantilla. | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | [design-taste-frontend.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v7/design-taste-frontend.zip) |
+| **frontend-slides** | Presentaciones en HTML con animaciones, con tu logo y tus colores. | [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides) | [frontend-slides.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v7/frontend-slides.zip) |
+
+Guía con los tres mensajes de la prueba y buenas prácticas: https://claude.ai/artifact/QRv96nKpYCPEedD26tLxKv
+
+### Cómo se instalan
+1. Descarga los tres `.zip` (no los descomprimas).
+2. En Claude (web o app del ordenador): **Ajustes → Skills → Añadir → Subir una Skill**.
+3. Elige los tres a la vez y súbelos.
+4. Empieza el mensaje con `/logo-design`, `/design-taste-frontend` o `/frontend-slides`. En el mismo chat y en ese orden, cada una usa lo que hizo la anterior.
+
 ## Mi Claude tiene gestoría propia: 9 skills para autónomos en España
 
 El paquete «Small Business» de Anthropic (44 skills para pequeños negocios de EE. UU.) reducido a las 9 que le sirven a un autónomo o una pyme en España y adaptado a sus impuestos: IVA, IRPF, cuota de autónomos y modelos 303 y 130. Cada skill lleva 3 fichas con 101 reglas en total, cada una con su cita literal y su enlace oficial (BOE, Agencia Tributaria y Seguridad Social), comprobadas el 27-10-2026. Funcionan con PDF, Excel o fotos, sin conectar nada.
