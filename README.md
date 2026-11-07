@@ -2,6 +2,23 @@
 
 Skills que hago y pruebo para mis vídeos. Casi todas son un archivo de texto con instrucciones para Claude, sin código. La excepción es `mi-editor`, que trae unos scripts para escuchar y montar el vídeo en tu ordenador (puedes leerlos en su carpeta).
 
+## Buscar trabajo: tu IA te busca un trabajo mejor (Claude y ChatGPT)
+
+Una skill mía, en español, que funciona en Claude y en ChatGPT. Le das tu CV, cuánto quieres cobrar y qué jornada, y busca ofertas reales (con el conector de Indeed, por internet o las que le pegues), les pone nota de 1 a 5 frente a tu CV, te dice a cuáles no apuntarte y por qué, te enseña el CV ideal de ese puesto y adapta el tuyo a la mejor oferta, sin inventarse nada, en un Word listo para enviar. Probada el 6-11-2026 en la app de Claude (Pro) y en la de ChatGPT (Plus, modo Work) con un CV inventado.
+
+No se apunta a nada ni envía nada: decides tú. Lleva dos scripts de Python (sin librerías de fuera) para calcular la nota, hacer el panel y crear el Word; puedes leerlos en su carpeta.
+
+| Skill | Descarga |
+|---|---|
+| **buscar-trabajo** | [buscar-trabajo.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v10/buscar-trabajo.zip) |
+| CV inventado para probarla (Javi) | [cv-javi-inventado.pdf](https://github.com/victorcorralsocial/skills-claude/releases/download/v10/cv-javi-inventado.pdf) |
+
+Toma ideas de método de [career-ops](https://github.com/career-ops-hq/career-ops) y [ResumeSkills](https://github.com/Paramchoudhary/ResumeSkills) (MIT), sin código ni texto copiados: ver `buscar-trabajo/CREDITOS.md`.
+
+### Cómo se instala
+- **Claude** (web o app del ordenador): **Ajustes → Skills → Añadir → Subir una Skill** y elige el zip. Se usa con `/buscar-trabajo`.
+- **ChatGPT** (app del ordenador, modo Work): adjunta el zip y escribe `Mete esta skill en ~/.codex/skills/`. Se usa con `@Buscar Trabajo`.
+
 ## Mi Claude tiene diseñadores: logo, web y presentación
 
 Tres skills de diseño que, en el mismo chat, hacen el logo de un negocio (con todos sus archivos), la web con ese logo y la presentación para el banco o un cliente, con los mismos colores. Probadas en la app de Claude (plan Pro) el 2-11-2026 con un negocio inventado: Doce Horas, la panadería de Marta.
