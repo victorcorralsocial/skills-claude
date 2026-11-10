@@ -9,6 +9,8 @@ Once skills que trabajan como un equipo: una estudia la app, otra la planea, otr
 
 No son mías: son de [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) (MIT), sin cambios y con su `LICENSE` dentro de cada carpeta.
 
+Guía con cómo instalarlas, qué pedirle a cada una y la prueba entera: https://claude.ai/artifact/Mx57pY1kBm9w1Rc6fm8uf9
+
 | Skills | Descarga |
 |---|---|
 | **Las 11 juntas** (replica-recon, architect, design, build, backend, test, diff, entrepreneur, brand, launch y deploy) | [replica-11-skills.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v12/replica-11-skills.zip) |
