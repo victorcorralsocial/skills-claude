@@ -2,6 +2,20 @@
 
 Skills que hago y pruebo para mis vídeos. Casi todas son un archivo de texto con instrucciones para Claude, sin código. La excepción es `mi-editor`, que trae unos scripts para escuchar y montar el vídeo en tu ordenador (puedes leerlos en su carpeta).
 
+
+## Replica: clona la app que pagas cada mes (11 skills para Claude Code)
+
+Once skills que trabajan como un equipo: una estudia la app, otra la planea, otra la diseña, otra la programa, otra la prueba, otra la compara con la original, otra lee lo que odian sus usuarios en reseñas reales, otra le pone nombre, otra le hace la web y la última te dice qué hace falta para publicarla. Las probé el 9-11-2026 rehaciendo lo principal de una app de dividir gastos: 34 minutos, 23 de 23 pruebas en verde y 105 reseñas leídas.
+
+No son mías: son de [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) (MIT), sin cambios y con su `LICENSE` dentro de cada carpeta.
+
+| Skills | Descarga |
+|---|---|
+| **Las 11 juntas** (replica-recon, architect, design, build, backend, test, diff, entrepreneur, brand, launch y deploy) | [replica-11-skills.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v12/replica-11-skills.zip) |
+
+### Cómo se instalan
+Van en **Claude Code** (pestaña Code de la app de Claude para ordenador, o la terminal), con un plan de pago. Descomprime el zip y copia las 11 carpetas en `~/.claude/skills/` (en Windows, `C:\Users\TU_USUARIO\.claude\skills\`). En una conversación nueva, escribe `/replica` y te salen las 11.
+
 ## Buscar trabajo: tu IA te busca un trabajo mejor (Claude y ChatGPT)
 
 Una skill mía, en español, que funciona en Claude y en ChatGPT. Le das tu CV, cuánto quieres cobrar y qué jornada, y busca ofertas reales (con el conector de Indeed, por internet o las que le pegues), les pone nota de 1 a 5 frente a tu CV, te dice a cuáles no apuntarte y por qué, te enseña el CV ideal de ese puesto y adapta el tuyo a la mejor oferta, sin inventarse nada, en un Word listo para enviar. Probada el 6-11-2026 en la app de Claude (Pro) y en la de ChatGPT (Plus, modo Work) con un CV inventado.
