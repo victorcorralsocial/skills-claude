@@ -3,6 +3,23 @@
 Skills que hago y pruebo para mis vídeos. Casi todas son un archivo de texto con instrucciones para Claude, sin código. La excepción es `mi-editor`, que trae unos scripts para escuchar y montar el vídeo en tu ordenador (puedes leerlos en su carpeta).
 
 
+## Enrutador: tres cerebros para que no se te funda el límite de Claude
+
+Una skill mía, en español, para **Claude Code**. Escribes `/enrutador` y lo que necesitas, y Claude reparte el trabajo: lo mecánico y largo (resumir un PDF, traducir un documento) se lo pasa a ayudantes con **Haiku**, que cuesta unas 40 veces menos que Opus; los análisis extensos, a **Sonnet**; y las decisiones se las queda **Opus**, que además revisa lo que le traen. En la primera línea de la respuesta te dice qué modelo ha hecho cada cosa.
+
+Probada el 9 y el 10-11-2026 con leyes del BOE (26 ejecuciones con y sin la skill, a precio de API): resumir, ~20 % menos; traducir, ~40 % menos; analizar, ~10 % menos. En preguntas cortas no ahorra nada: ahí contesta Opus directamente.
+
+Guía con cómo instalarla, cuándo usarla y mis pruebas: https://claude.ai/artifact/RPkQZh1cmS2PuPTXDXxtWA
+
+| Skill | Descarga |
+|---|---|
+| **enrutador** | [enrutador.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v13/enrutador.zip) |
+
+La idea de delegar en ayudantes con otro modelo viene de [model-router](https://github.com/imskyleen/model-router) (MIT); el texto y las reglas son propios.
+
+### Cómo se instala
+Va en **Claude Code** (pestaña Code de la app de Claude para ordenador, o la terminal), con un plan de pago. Descomprime el zip y copia la carpeta `enrutador` en `~/.claude/skills/` (en Windows, `C:\Users\TU_USUARIO\.claude\skills\`). En una conversación nueva, escribe `/enrutador` y la tarea.
+
 ## Replica: clona la app que pagas cada mes (11 skills para Claude Code)
 
 Once skills que trabajan como un equipo: una estudia la app, otra la planea, otra la diseña, otra la programa, otra la prueba, otra la compara con la original, otra lee lo que odian sus usuarios en reseñas reales, otra le pone nombre, otra le hace la web y la última te dice qué hace falta para publicarla. Las probé el 9-11-2026 rehaciendo lo principal de una app de dividir gastos: 34 minutos, 23 de 23 pruebas en verde y 105 reseñas leídas.
