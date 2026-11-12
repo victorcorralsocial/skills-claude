@@ -3,6 +3,24 @@
 Skills que hago y pruebo para mis vídeos. Casi todas son un archivo de texto con instrucciones para Claude, sin código. La excepción es `mi-editor`, que trae unos scripts para escuchar y montar el vídeo en tu ordenador (puedes leerlos en su carpeta).
 
 
+## Detective: ¿esta tienda online es una estafa? (Claude y ChatGPT)
+
+Una skill mía, en español, para quien compra en España. Le pasas el enlace de una tienda que no conoces y busca pruebas antes de que pagues: avisos de la OCU, INCIBE, la Guardia Civil y la prensa; edad del dominio (y si es de segunda mano); de quién es de verdad el CIF que enseña; precios frente a la web oficial; formas de pago; textos copiados de otras tiendas; sellos falsos y reseñas de fuera. **Nunca dice que una tienda es segura**: lo más alto es «No he encontrado señales de alarma», siempre con cómo pagar para no perder el dinero. Si ya has pagado, te dice qué hacer con tu banco.
+
+Probada el 12-11-2026 en Claude y en ChatGPT con tiendas falsas denunciadas por la OCU, la Guardia Civil y Maldita (todas en rojo) y con tiendas legales (ninguna acusada).
+
+Guía: https://claude.ai/artifact/EQPaon8rPujn5qeJaNVoZ6
+
+| Skill | Descarga |
+|---|---|
+| **detective** | [detective.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v14/detective.zip) |
+
+Toma ideas de método de is-website-safe (ClaudSkills) y de [scam-site-investigation](https://github.com/rickyananda/hermes-skills) (MIT), sin copiar su texto. Lleva un script de Python (`scripts/comprobar.py`, sin librerías de fuera) que comprueba el CIF y la edad del dominio con fuentes públicas.
+
+### Cómo se instala
+- **Claude** (web o app del ordenador): **Ajustes → Skills → Añadir → Subir una Skill** y elige el zip. Se usa con `/detective` y el enlace.
+- **ChatGPT** (app del ordenador, modo Work): adjunta el zip y escribe `Mete esta skill en ~/.codex/skills/`. Se usa con `/detective` y el enlace.
+
 ## Enrutador: tres cerebros para que no se te funda el límite de Claude
 
 Una skill mía, en español, para **Claude Code**. Escribes `/enrutador` y lo que necesitas, y Claude reparte el trabajo: lo mecánico y largo (resumir un PDF, traducir un documento) se lo pasa a ayudantes con **Haiku**, que cuesta unas 40 veces menos que Opus; los análisis extensos, a **Sonnet**; y las decisiones se las queda **Opus**, que además revisa lo que le traen. En la primera línea de la respuesta te dice qué modelo ha hecho cada cosa.
