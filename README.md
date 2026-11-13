@@ -7,6 +7,8 @@ Skills que hago y pruebo para mis vídeos. Casi todas son un archivo de texto co
 
 No es una skill: es una página que hice con Claude Code para abrirla cada mañana. Agenda del día con los huecos libres y el tiempo, calendario (Google, Outlook o cualquiera con enlace iCal), lo que vence (seguro, ITV, IBI, DNI, garantías), dinero del mes con previsión, suscripciones, hábitos con rachas, salud, objetivos del año, la gente con la que quieres hablar y tus huchas. HTML, CSS y JavaScript normales: se abre con doble clic, sin instalar nada. Trae **datos de ejemplo**; los tuyos se los das a Claude Code.
 
+Guía con los 5 pasos, los prompts exactos, tu calendario (Google, Outlook/Teams o cualquiera con enlace iCal) y de dónde sacar cada dato: https://claude.ai/artifact/EdBWRwKHQNPkVGhvhrhuB2
+
 | Proyecto | Descarga |
 |---|---|
 | **panel-de-vida** | [panel-de-vida.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v15/panel-de-vida.zip) |
