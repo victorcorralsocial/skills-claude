@@ -3,6 +3,17 @@
 Skills que hago y pruebo para mis vídeos. Casi todas son un archivo de texto con instrucciones para Claude, sin código. La excepción es `mi-editor`, que trae unos scripts para escuchar y montar el vídeo en tu ordenador (puedes leerlos en su carpeta).
 
 
+## Panel de vida: tu día en una página, hecho con Claude Code
+
+No es una skill: es una página que hice con Claude Code para abrirla cada mañana. Agenda del día con los huecos libres y el tiempo, calendario (Google, Outlook o cualquiera con enlace iCal), lo que vence (seguro, ITV, IBI, DNI, garantías), dinero del mes con previsión, suscripciones, hábitos con rachas, salud, objetivos del año, la gente con la que quieres hablar y tus huchas. HTML, CSS y JavaScript normales: se abre con doble clic, sin instalar nada. Trae **datos de ejemplo**; los tuyos se los das a Claude Code.
+
+| Proyecto | Descarga |
+|---|---|
+| **panel-de-vida** | [panel-de-vida.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v15/panel-de-vida.zip) |
+
+### Cómo se usa
+Descomprime el zip, abre la carpeta `panel-de-vida` en **Claude Code** (pestaña Code de la app de Claude para ordenador, plan Pro o superior) y dile: «Vamos a cambiar los datos de ejemplo por los míos. Pregúntame uno a uno». Para tu agenda: «actualiza el panel» (lee el `CLAUDE.md` de la carpeta).
+
 ## Detective: ¿esta tienda online es una estafa? (Claude y ChatGPT)
 
 Una skill mía, en español, para quien compra en España. Le pasas el enlace de una tienda que no conoces y busca pruebas antes de que pagues: avisos de la OCU, INCIBE, la Guardia Civil y la prensa; edad del dominio (y si es de segunda mano); de quién es de verdad el CIF que enseña; precios frente a la web oficial; formas de pago; textos copiados de otras tiendas; sellos falsos y reseñas de fuera. **Nunca dice que una tienda es segura**: lo más alto es «No he encontrado señales de alarma», siempre con cómo pagar para no perder el dinero. Si ya has pagado, te dice qué hacer con tu banco.
