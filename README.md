@@ -10,6 +10,8 @@ Once skills que trabajan como una empresa: un consejo que vota tu idea, una que 
 
 No son mías: son de [Jakeschincariol/founder-skill](https://github.com/Jakeschincariol/founder-skill) (MIT), sin cambios y con su `LICENSE` dentro de cada carpeta.
 
+Guía con cómo instalarlas, qué pedirle a cada una y la prueba entera: https://claude.ai/artifact/WttXqGNVmbTevgN9XqtZVQ
+
 | Skills | Descarga |
 |---|---|
 | **Las 11 juntas** (founder-board, competitors, consumer, pricing, offer, cfo, marketing, brand, ops, launch y plan) | [founder-11-skills.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v16/founder-11-skills.zip) |
