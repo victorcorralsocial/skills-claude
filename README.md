@@ -3,6 +3,20 @@
 Skills que hago y pruebo para mis vídeos. Casi todas son un archivo de texto con instrucciones para Claude, sin código. La excepción es `mi-editor`, que trae unos scripts para escuchar y montar el vídeo en tu ordenador (puedes leerlos en su carpeta).
 
 
+
+## Founder: prueba tu negocio antes de montarlo (11 skills para Claude Code)
+
+Once skills que trabajan como una empresa: un consejo que vota tu idea, una que mira la competencia, un panel de 100 clientes simulados, una de precios, una de oferta, un director financiero, marketing, marca, operaciones, lanzamiento y un plan de negocio con veredicto calculado («Rentable», «Todavía no» o «Incompleto»). Las probé el 14-11-2026 con una caja mensual de productos de pueblo: 3,7 sobre 10 del consejo, 7 de 100 clientes la compraban y el primer año perdía 6.713 €.
+
+No son mías: son de [Jakeschincariol/founder-skill](https://github.com/Jakeschincariol/founder-skill) (MIT), sin cambios y con su `LICENSE` dentro de cada carpeta.
+
+| Skills | Descarga |
+|---|---|
+| **Las 11 juntas** (founder-board, competitors, consumer, pricing, offer, cfo, marketing, brand, ops, launch y plan) | [founder-11-skills.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v16/founder-11-skills.zip) |
+
+### Cómo se instalan
+Van en **Claude Code** (pestaña Code de la app de Claude para ordenador, o la terminal), con un plan de pago. Descomprime el zip y copia las 11 carpetas en `~/.claude/skills/` (en Windows, `C:\Users\TU_USUARIO\.claude\skills\`). En una conversación nueva, escribe `/founder` y te salen las 11.
+
 ## Panel de vida: tu día en una página, hecho con Claude Code
 
 No es una skill: es una página que hice con Claude Code para abrirla cada mañana. Agenda del día con los huecos libres y el tiempo, calendario (Google, Outlook o cualquiera con enlace iCal), lo que vence (seguro, ITV, IBI, DNI, garantías), dinero del mes con previsión, suscripciones, hábitos con rachas, salud, objetivos del año, la gente con la que quieres hablar y tus huchas. HTML, CSS y JavaScript normales: se abre con doble clic, sin instalar nada. Trae **datos de ejemplo**; los tuyos se los das a Claude Code.
