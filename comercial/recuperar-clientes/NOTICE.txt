@@ -1,0 +1,19 @@
+Skills de ventas para autónomos y pymes en España
+
+Obra derivada de los plugins «Sales» y «Small Business» de Anthropic, PBC
+(https://github.com/anthropics/knowledge-work-plugins), distribuidos con licencia Apache 2.0 (ver LICENSE).
+Skills de origen de esta: reactivate.
+
+Cambios respecto al original (noviembre de 2026):
+- Traducción al español y reescritura de los flujos para autónomos y pymes en España.
+- Comprobación legal antes de cualquier contacto: LSSI (correo, SMS y WhatsApp comerciales), Ley General
+  de Telecomunicaciones y Circular 1/2023 de la AEPD (llamadas), RGPD y LOPDGDD (datos y listas de
+  exclusión) y Ley de Competencia Desleal, en references/prospeccion-legal.md, comprobada el 14-11-2026.
+- Método de ventas (references/metodo-ventas.md) adaptado de las guías del original.
+- Funcionan sin conectores (Excel, CSV, PDF, notas); los conectores (Gmail, Calendar, CRM) son opcionales
+  y nada se envía, agenda ni escribe sin la aprobación del usuario.
+- Fuera: secuencias automáticas, avisos a canales de equipo, Apollo/Clay/Zapier por defecto y todo lo que
+  dependía de un CRM de empresa grande.
+
+No es un producto de Anthropic ni está respaldado por Anthropic.
+No es asesoramiento jurídico.

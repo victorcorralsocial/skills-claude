@@ -4,6 +4,22 @@ Skills que hago y pruebo para mis vídeos. Casi todas son un archivo de texto co
 
 
 
+## Mi Claude ya tiene comercial (9 skills de ventas, ley española)
+
+Nueve skills para vender en España siendo autónomo o pyme: una te busca clientes con el motivo para llamarles, otra investiga la empresa, otra te prepara la visita, otra te dice qué contestar al «es caro», otra a quién llamar esta semana, otra te escribe el primer contacto, otra resume tus visitas con el correo de seguimiento, otra te ordena la hoja de ventas y otra te dice qué clientes se te han ido y cómo recuperarlos. Antes de preparar cualquier contacto miran si la ley española deja usar ese canal con esa persona (LSSI, Circular 1/2023 de la AEPD, RGPD): por ejemplo, no te escriben un correo en frío a una empresa, porque en España tampoco se puede. Fuentes comprobadas a 14-11-2026. No es asesoramiento jurídico.
+
+Obra derivada de los plugins «Sales» y «Small Business» de Anthropic ([anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins), Apache 2.0), traducida y modificada. No es un producto de Anthropic ni está respaldada por Anthropic. Su `LICENSE` y su `NOTICE.txt` van dentro de cada carpeta.
+
+| Skills | Descarga |
+|---|---|
+| **Las 9 juntas** (buscar-clientes, investigar-empresa, preparar-visita, primer-contacto, resumen-llamada, objeciones, a-quien-llamo, hoja-de-ventas y recuperar-clientes) | [las-9-skills.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v19/las-9-skills.zip) |
+| **Material inventado del vídeo** (Reformas Albar, para probarlas) | [prueba-comercial.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v19/prueba-comercial.zip) |
+
+Cada una suelta, en la [release v19](https://github.com/victorcorralsocial/skills-claude/releases/tag/v19).
+
+### Cómo se instalan
+En **Claude** (web o app del ordenador): **Ajustes → Skills → Añadir → Subir una Skill** y elige los `.zip` de cada skill, sin descomprimirlos (puedes subir los 9 a la vez). `las-9-skills.zip` hay que descomprimirlo primero: dentro van los 9 zips. Hace falta tener activada la ejecución de código (Ajustes → Capacidades).
+
 ## Founder: prueba tu negocio antes de montarlo (11 skills para Claude Code)
 
 Once skills que trabajan como una empresa: un consejo que vota tu idea, una que mira la competencia, un panel de 100 clientes simulados, una de precios, una de oferta, un director financiero, marketing, marca, operaciones, lanzamiento y un plan de negocio con veredicto calculado («Rentable», «Todavía no» o «Incompleto»). Las probé el 14-11-2026 con una caja mensual de productos de pueblo: 3,7 sobre 10 del consejo, 7 de 100 clientes la compraban y el primer año perdía 6.713 €.
