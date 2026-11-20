@@ -1,0 +1,72 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:mapas OR file:index",
+      "color": {
+        "a": 1,
+        "rgb": 16447989
+      }
+    },
+    {
+      "query": "path:proyectos OR path:empresas OR path:reuniones",
+      "color": {
+        "a": 1,
+        "rgb": 14251863
+      }
+    },
+    {
+      "query": "path:personas",
+      "color": {
+        "a": 1,
+        "rgb": 15317106
+      }
+    },
+    {
+      "query": "path:lecturas",
+      "color": {
+        "a": 1,
+        "rgb": 12033248
+      }
+    },
+    {
+      "query": "path:ideas",
+      "color": {
+        "a": 1,
+        "rgb": 15914076
+      }
+    },
+    {
+      "query": "path:temas",
+      "color": {
+        "a": 1,
+        "rgb": 9418099
+      }
+    },
+    {
+      "query": "path:vida",
+      "color": {
+        "a": 1,
+        "rgb": 15043504
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 2.2,
+  "lineSizeMultiplier": 1.3,
+  "collapse-forces": false,
+  "centerStrength": 0.45,
+  "repelStrength": 16,
+  "linkStrength": 1,
+  "linkDistance": 110,
+  "scale": 1,
+  "close": true
+}

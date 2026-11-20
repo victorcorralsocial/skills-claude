@@ -4,6 +4,22 @@ Skills que hago y pruebo para mis vídeos. Casi todas son un archivo de texto co
 
 
 
+## Segundo cerebro: Claude + Obsidian (plantilla)
+
+No es una skill: es una carpeta lista para abrir en **Obsidian** (gratis) y en la **app de Claude para ordenador** (pestaña Cowork o Code, plan Pro o superior). Tú metes tus cosas en `fuentes/` (notas del móvil, PDF, apuntes, transcripciones) y Claude las convierte en notas enlazadas: una por persona, proyecto, cliente, idea o tema, con su grafo de relaciones. Después le preguntas lo que quieras y contesta citando tus notas. Sin código: el `CLAUDE.md` de la carpeta son las instrucciones que sigue Claude (tres órdenes: «mete esto», preguntar y «revísalo»).
+
+Probada: con tres fuentes de prueba, Claude creó 22 notas enlazadas sin un solo enlace roto.
+
+| Proyecto | Descarga |
+|---|---|
+| **segundo-cerebro** (la carpeta `Mi cerebro` + `GUIA-PASO-A-PASO.md`, para Mac y Windows) | [segundo-cerebro.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v20/segundo-cerebro.zip) |
+| **Cerebro de ejemplo** (el del vídeo: una interiorista inventada, 673 notas, para ver el grafo sin meter nada tuyo) | [cerebro-de-ejemplo.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v20/cerebro-de-ejemplo.zip) |
+
+### Cómo se usa
+Descomprime el zip, mueve `Mi cerebro` a Documentos (mejor fuera de iCloud, OneDrive o Google Drive), ábrela en Obsidian con «Abrir carpeta como bóveda» y, en la app de Claude, elige esa carpeta. La primera orden y el resto están en `GUIA-PASO-A-PASO.md` y en la nota «Cómo usar tu cerebro». No metas contraseñas, DNI, datos bancarios ni datos de salud de otras personas.
+
+La skill `obsidian-markdown` que va dentro (`.claude/skills/`) es la oficial de [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills) (MIT), sin cambios y con su `LICENSE`.
+
 ## Mi Claude ya tiene comercial (9 skills de ventas, ley española)
 
 Nueve skills para vender en España siendo autónomo o pyme: una te busca clientes con el motivo para llamarles, otra investiga la empresa, otra te prepara la visita, otra te dice qué contestar al «es caro», otra a quién llamar esta semana, otra te escribe el primer contacto, otra resume tus visitas con el correo de seguimiento, otra te ordena la hoja de ventas y otra te dice qué clientes se te han ido y cómo recuperarlos. Antes de preparar cualquier contacto miran si la ley española deja usar ese canal con esa persona (LSSI, Circular 1/2023 de la AEPD, RGPD): por ejemplo, no te escriben un correo en frío a una empresa, porque en España tampoco se puede. Fuentes comprobadas a 14-11-2026. No es asesoramiento jurídico.

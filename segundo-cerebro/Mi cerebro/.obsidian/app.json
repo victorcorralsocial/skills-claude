@@ -1,0 +1,10 @@
+{
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "fuentes",
+  "attachmentFolderPath": "fuentes",
+  "showUnsupportedFiles": true,
+  "promptDelete": true
+}

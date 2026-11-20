@@ -1,0 +1,1 @@
+Copiado de github.com/obsidianmd/obsidian-skills (antes kepano/obsidian-skills), versión 1.2.0, commit 398127736bd4ba42d767b1419fee1a927508370b del Wed Nov 11 08:12:33 2026 -0800. Licencia MIT (LICENSE). Solo es documentación del formato de Obsidian: no ejecuta nada ni se conecta a internet.
