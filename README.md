@@ -10,6 +10,8 @@ No es una skill: es una carpeta lista para abrir en **Obsidian** (gratis) y en l
 
 Probada: con tres fuentes de prueba, Claude creó 22 notas enlazadas sin un solo enlace roto.
 
+Guía con los pasos para Mac y Windows, las órdenes para copiar y el cerebro de ejemplo: https://claude.ai/artifact/2puB8jtrc5iab3oimKuqGA
+
 | Proyecto | Descarga |
 |---|---|
 | **segundo-cerebro** (la carpeta `Mi cerebro` + `GUIA-PASO-A-PASO.md`, para Mac y Windows) | [segundo-cerebro.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v20/segundo-cerebro.zip) |
