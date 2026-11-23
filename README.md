@@ -4,6 +4,18 @@ Skills que hago y pruebo para mis vídeos. Casi todas son un archivo de texto co
 
 
 
+## Clona cualquier web con Claude (plantilla)
+
+No es una skill: es una carpeta para abrir en **Claude Code** (plan de pago de Claude) con el comando `/clone-website`. Le das la dirección de una web y Claude la mira en ordenador y en móvil, se baja sus fotos, la construye y se compara con la original hasta que cuadran. La copia se queda en tu ordenador: no se publica nada. Después le pides que la mejore o que use ese diseño para tu negocio, sin nada de la web original.
+
+Probada: la portada de apple.com en 34 minutos, sin tocar nada a mano; mejorada después hasta sacar 100 en accesibilidad y SEO en Lighthouse (la de Apple saca 92); y convertida en la web de una panadería inventada.
+
+| Proyecto | Descarga |
+|---|---|
+| **clonar-webs** (la carpeta `clonador-webs`, lista para abrir en Claude Code; hace falta Node.js 24 o más nuevo) | [clonador-webs.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v21/clonador-webs.zip) |
+
+Es la plantilla [AI Website Cloner Template](https://github.com/JCodesMore/ai-website-cloner-template) de JCodesMore (MIT), sin cambios y con su `LICENSE`. Solo lleva un `LEEME.md` en español. Lo de la web que copies (logo, textos, fotos) es de su dueño: úsala para aprender, para rehacer tu propia web o como base que cambias entera por lo tuyo.
+
 ## Segundo cerebro: Claude + Obsidian (plantilla)
 
 No es una skill: es una carpeta lista para abrir en **Obsidian** (gratis) y en la **app de Claude para ordenador** (pestaña Cowork o Code, plan Pro o superior). Tú metes tus cosas en `fuentes/` (notas del móvil, PDF, apuntes, transcripciones) y Claude las convierte en notas enlazadas: una por persona, proyecto, cliente, idea o tema, con su grafo de relaciones. Después le preguntas lo que quieras y contesta citando tus notas. Sin código: el `CLAUDE.md` de la carpeta son las instrucciones que sigue Claude (tres órdenes: «mete esto», preguntar y «revísalo»).
