@@ -10,6 +10,8 @@ No es una skill: es una carpeta para abrir en **Claude Code** (plan de pago de C
 
 Probada: la portada de apple.com en 34 minutos, sin tocar nada a mano; mejorada después hasta sacar 100 en accesibilidad y SEO en Lighthouse (la de Apple saca 92); y convertida en la web de una panadería inventada.
 
+Guía con los pasos, los mensajes para copiar (clonar, mejorarla y hacerla tuya) y mi prueba: https://claude.ai/artifact/Nj7sxT2bmNsXZ7hT8dMQsR
+
 | Proyecto | Descarga |
 |---|---|
 | **clonar-webs** (la carpeta `clonador-webs`, lista para abrir en Claude Code; hace falta Node.js 24 o más nuevo) | [clonador-webs.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v21/clonador-webs.zip) |
