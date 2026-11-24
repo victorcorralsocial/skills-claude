@@ -10,6 +10,8 @@ Tres skills para antes de una decisión importante (una hipoteca, cambiar de tra
 
 Probadas el 22 y el 24-11-2026: con una hipoteca inventada, 22 preguntas en dos rondas, el problema que no se veía («la cuota no es el problema, el problema es la entrada») y un cuestionario de 29 preguntas para el banco.
 
+Guía con cómo instalarlas, cómo se usan, cinco decisiones para probarlas y mi prueba: https://claude.ai/artifact/GbNfwTCQqDcJF7CcC1YSRq
+
 | Skills | Descarga |
 |---|---|
 | **Las 3 juntas** (grill-me, wait-what y to-questionnaire) | [las-3-skills.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v22/las-3-skills.zip) |
