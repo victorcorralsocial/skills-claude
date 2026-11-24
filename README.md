@@ -4,6 +4,23 @@ Skills que hago y pruebo para mis vídeos. Casi todas son un archivo de texto co
 
 
 
+## Decisiones: 3 skills para decidir mejor con Claude
+
+Tres skills para antes de una decisión importante (una hipoteca, cambiar de trabajo, montar un negocio): **grill-me** te interroga por rondas, con su respuesta recomendada en cada pregunta; **wait-what** te vuelve a explicar lo último en lenguaje sencillo; y **to-questionnaire** te prepara un cuestionario para la persona que sabe lo que tú no (el banco, el gestor, recursos humanos). Funcionan en la app de Claude y en Claude Code.
+
+Probadas el 22 y el 24-11-2026: con una hipoteca inventada, 22 preguntas en dos rondas, el problema que no se veía («la cuota no es el problema, el problema es la entrada») y un cuestionario de 29 preguntas para el banco.
+
+| Skills | Descarga |
+|---|---|
+| **Las 3 juntas** (grill-me, wait-what y to-questionnaire) | [las-3-skills.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v22/las-3-skills.zip) |
+
+Cada una suelta, en la [release v22](https://github.com/victorcorralsocial/skills-claude/releases/tag/v22).
+
+Son una adaptación al español de las skills de [Matt Pocock](https://github.com/mattpocock/skills) (MIT): traducidas, `grill-me` y `grilling` en una sola y sin `disable-model-invocation`, para que también funcionen en la app de Claude. Su `LICENSE` va dentro de cada carpeta.
+
+### Cómo se instalan
+En **Claude** (web o app del ordenador): **Personalizar → Skills → + → Crear skill → Subir una skill** y elige el `.zip` de cada una, sin descomprimirlo. `las-3-skills.zip` hay que descomprimirlo primero: dentro van los 3 zips. Hace falta tener activada la ejecución de código (Ajustes → Capacidades). En **Claude Code**, descomprime cada zip en `~/.claude/skills/`.
+
 ## Clona cualquier web con Claude (plantilla)
 
 No es una skill: es una carpeta para abrir en **Claude Code** (plan de pago de Claude) con el comando `/clone-website`. Le das la dirección de una web y Claude la mira en ordenador y en móvil, se baja sus fotos, la construye y se compara con la original hasta que cuadran. La copia se queda en tu ordenador: no se publica nada. Después le pides que la mejore o que use ese diseño para tu negocio, sin nada de la web original.
