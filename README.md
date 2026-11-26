@@ -4,6 +4,21 @@ Skills que hago y pruebo para mis vídeos. Casi todas son un archivo de texto co
 
 
 
+## Enrutador para Codex: el mismo trabajo gastando la mitad de límite
+
+Una skill mía, en español, para **Codex de OpenAI** (la app de Codex o la terminal). Escribes `$enrutador` y la tarea, y el modelo que tienes elegido (lo normal, GPT-6.2 Sol) hace de jefe: decide, encarga, comprueba y contesta. El trabajo pesado (leer o resumir documentos largos, programar, arreglar fallos) se lo encarga a **GPT-6 Luna**, unas 20 veces más barata. Si Luna falla la comprobación dos veces, sube a **GPT-6.1 Terra** y, si tampoco, lo termina el jefe. Lo corto lo hace el jefe solo. En la primera línea de la respuesta te dice quién ha hecho qué.
+
+Probada del 25 al 26-11-2026 con mi cuenta de ChatGPT Plus: programar una app de gastos, de 3,95 a 1,97 créditos con GPT-6.2 Sol (con GPT-6 Sol, −53 % de media en 4 pruebas); resumir una ley de 29.518 palabras, −53 %; analizarla, −58 %; una tarea mediana, −27 %; algo corto, lo mismo.
+
+| Skill | Descarga |
+|---|---|
+| **enrutador (Codex)** | [enrutador-codex.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v23/enrutador-codex.zip) |
+
+No es la misma que la carpeta `enrutador` de este repositorio, que es para Claude Code.
+
+### Cómo se instala
+Descomprime el zip y copia la carpeta `enrutador` en `~/.agents/skills/` (en Windows, `C:\Users\TU_USUARIO\.agents\skills\`). Si la quieres solo para un proyecto, cópiala en `.agents/skills/` dentro de la carpeta del proyecto. Si no aparece, cierra y vuelve a abrir Codex. Se usa con GPT-6.2 Sol (o Astra) en el selector, escribiendo `$enrutador` y la tarea. Si usas Codex en la terminal, actualízalo para ver GPT-6.2 Sol.
+
 ## Decisiones: 3 skills para decidir mejor con Claude
 
 Tres skills para antes de una decisión importante (una hipoteca, cambiar de trabajo, montar un negocio): **grill-me** te interroga por rondas, con su respuesta recomendada en cada pregunta; **wait-what** te vuelve a explicar lo último en lenguaje sencillo; y **to-questionnaire** te prepara un cuestionario para la persona que sabe lo que tú no (el banco, el gestor, recursos humanos). Funcionan en la app de Claude y en Claude Code.
