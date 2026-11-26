@@ -10,6 +10,8 @@ Una skill mía, en español, para **Codex de OpenAI** (la app de Codex o la term
 
 Probada del 25 al 26-11-2026 con mi cuenta de ChatGPT Plus: programar una app de gastos, de 3,95 a 1,97 créditos con GPT-6.2 Sol (con GPT-6 Sol, −53 % de media en 4 pruebas); resumir una ley de 29.518 palabras, −53 %; analizarla, −58 %; una tarea mediana, −27 %; algo corto, lo mismo.
 
+Guía con cómo instalarla, cómo usarla y dos ajustes que suman: https://claude.ai/artifact/NueaBtX4e8aTtXDqaxogmp
+
 | Skill | Descarga |
 |---|---|
 | **enrutador (Codex)** | [enrutador-codex.zip](https://github.com/victorcorralsocial/skills-claude/releases/download/v23/enrutador-codex.zip) |
